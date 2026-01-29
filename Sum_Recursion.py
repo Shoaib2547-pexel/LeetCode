@@ -5,10 +5,11 @@ class Solution(object):
         :rtype: int
 
         """
-        
+        # Base Case 
         if(n==1):
             return 1
         else:
+        # Recursive Case
             return n + self.Sum(n-1)
         
 
